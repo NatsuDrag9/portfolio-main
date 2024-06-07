@@ -3,7 +3,7 @@
   <a href="https://natsudrag9.github.io/portfolio-main/" target="_blank">natsudrag9.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
