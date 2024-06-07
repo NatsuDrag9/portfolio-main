@@ -64,9 +64,9 @@ function WorkExperience() {
                 <span className="purple">chunking</span>:
                 <ul>
                   <li>Implemented caching mechanisms for session storage </li>
-                  <li>Reduce main application bundle size</li>
-                  <li>Reduce deployment time</li>
-                  <li>Reduce build time</li>
+                  <li>Reduced main application bundle size</li>
+                  <li>Reduced deployment time</li>
+                  <li>Reduced build time by 50%</li>
                 </ul>
               </li>
               <li>
