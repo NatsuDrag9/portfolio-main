@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import freeRtos from "../../Assets/Projects/free_rtos.webp";
+import tetrisGame from "../../Assets/Projects/Game_single_player_mdpi.png";
+import serialProtocol from "../../Assets/Projects/driver_layer.webp";
 
 function Projects() {
   return (
@@ -15,31 +13,21 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tetrisGame}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Tetris Multiplayer"
+              description="Tetris Multiplayer is a fullstack web application built using React, Typescript, NodeJs and Express that allows users to play the classic game of Tetris either solo or against friends in real-time multiplayer mode. Real time functionality was implemented using WebSockets"
+              ghLink="https://github.com/NatsuDrag9/tetris-multiplayer"
+              // demoLink=""
+              wikiLink="https://github.com/NatsuDrag9/tetris-multiplayer/wiki/Recruiters"
             />
           </Col>
 
@@ -47,44 +35,34 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Code Editor (Contributing to this open source project)"
+              description="An online code-editor, where you can write python, cpp, javascript, java, and react code in your browser and see the output in the same window. Except for react, all other languages are executed on the server-side in an isolated environment to ensure security."
+              ghLink="https://github.com/NatsuDrag9/code-editor"
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={serialProtocol}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Serial Protocol Library from scratch"
+              description="This is a firmware library written from scratch in C for ARM Cortex microprocessor for serial protocols. The library provides apis for I2C, SPI, GPIO and USART that an embedded systems's application layer (client) can use."
+              ghLink="https://github.com/NatsuDrag9/STM32f413xx-drivers-from-scratch"
+              // demoLink="https://plant49-ai.herokuapp.com/"
+              wikiLink="https://github.com/NatsuDrag9/tetris-multiplayer/wiki/Recruiters"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={freeRtos}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Blink LEDs and control RTC using FreeRTOS"
+              description="This is an application on the STM32F413ZH board using FreeRTOS task scheduling to blink on-board LEDs at set intervals and configure real-time clock functionalities."
+              ghLink="https://github.com/NatsuDrag9/FreeRTOS-LED-and-RTC-Using-Timers-STM32?tab=readme-ov-file"
+              // demoLink="https://plant49-ai.herokuapp.com/"
+              wikiLink="https://rohitimandi.medium.com/freertos-led-and-rtc-using-timers-stm32-f975b20d7e63"
             />
           </Col>
         </Row>
