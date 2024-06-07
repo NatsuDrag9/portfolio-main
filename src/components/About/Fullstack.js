@@ -2,51 +2,56 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { TbPoint } from "react-icons/tb";
 
-function Toolstack() {
+function Fullstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={2} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> VsCode
-        </span>
-      </Col>
-      <Col xs={2} md={3} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> STM32 Cube IDE
+          <TbPoint /> Javascript
         </span>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> Postman
+          <TbPoint /> Typescript
         </span>
       </Col>
-      <Col xs={2} md={2} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> Docker
+          <TbPoint /> NodeJs
         </span>
       </Col>
-      <Col xs={2} md={6} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> Debugging using oscilloscope and logic analyzer
+          <TbPoint /> MongoDb
         </span>
       </Col>
-      <Col xs={2} md={2} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> GDB
+          <TbPoint /> PostgreSQL
         </span>
       </Col>
-      <Col xs={2} md={2} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> Ubuntu
+          <TbPoint /> Python
         </span>
       </Col>
-      <Col xs={2} md={3} className="tech-icons">
+      <Col xs={3} md={2} className="tech-icons">
         <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
-          <TbPoint /> Git and Github
+          <TbPoint /> Storybook
+        </span>
+      </Col>
+      <Col xs={3} md={2} className="tech-icons">
+        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+          <TbPoint /> Express
+        </span>
+      </Col>
+      <Col xs={3} md={3} className="tech-icons">
+        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+          <TbPoint /> JEST and Vitest
         </span>
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Fullstack;

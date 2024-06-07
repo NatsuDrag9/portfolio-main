@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
+// import Github from "./Github";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Fullstack from "./Fullstack";
+import EmbeddedStack from "./EmbeddedStack";
 
 function About() {
   return (
@@ -35,17 +36,24 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Fullstack <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        {/* <TechstackOne /> */}
+        <Fullstack />
+
+        <h1 className="project-heading">
+          Embedded Software <strong className="purple">Skillset </strong>
+        </h1>
+
+        <EmbeddedStack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

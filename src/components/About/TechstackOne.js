@@ -8,20 +8,21 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiLinux,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
+  SiStorybook,
   SiPostgresql,
+  SiTypescript,
+  SiGnubash,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
-function Techstack() {
+function TechstackOne() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        C
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -29,7 +30,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,34 +39,42 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStorybook />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiGnubash />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span style={{ fontSize: "2vw", verticalAlign: "middle" }}>
+          FreeRTOS
+        </span>
+      </Col>
+      <Col xs={4} md={3} className="tech-icons">
+        <span style={{ fontSize: "2vw" }}>Exp with ARM</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span style={{ fontSize: "2vw" }}>STM32 board</span>
+      </Col>
+      <Col xs={4} md={4} className="tech-icons">
+        <span style={{ fontSize: "2vw" }}>I2C, SPI, UART, USART</span>
       </Col>
     </Row>
   );
 }
 
-export default Techstack;
+export default TechstackOne;
