@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-main/static/css/main.42a01102.css",
+    "main.js": "/portfolio-main/static/js/main.3b9e46c1.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio-main/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-main/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Game_single_player_mdpi.png": "/portfolio-main/static/media/Game_single_player_mdpi.82c3b7eda012b4ceeb8e.png",
+    "static/media/codeEditor.png": "/portfolio-main/static/media/codeEditor.fd179612c79566282d07.png",
+    "static/media/home-main.svg": "/portfolio-main/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/portfolio-main/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/portfolio-main/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/free_rtos.webp": "/portfolio-main/static/media/free_rtos.621cbf05c48c53d138f8.webp",
+    "static/media/avatar.svg": "/portfolio-main/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/driver_layer.webp": "/portfolio-main/static/media/driver_layer.c50f7574915731b96c7f.webp",
+    "static/media/pre.svg": "/portfolio-main/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/portfolio-main/index.html",
+    "main.42a01102.css.map": "/portfolio-main/static/css/main.42a01102.css.map",
+    "main.3b9e46c1.js.map": "/portfolio-main/static/js/main.3b9e46c1.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio-main/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-main/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42a01102.css",
+    "static/js/main.3b9e46c1.js"
+  ]
+}
