@@ -6,44 +6,44 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={2} md={2} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> VsCode
-        </span>
+        </div>
       </Col>
       <Col xs={2} md={3} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> STM32 Cube IDE
-        </span>
+        </div>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> Postman
-        </span>
+        </div>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> Docker
-        </span>
+        </div>
       </Col>
-      <Col xs={2} md={6} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+      <Col xs={4} md={4} className="tech-icons">
+        <div className="techstack__element">
           <TbPoint /> Debugging using oscilloscope and logic analyzer
-        </span>
+        </div>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> GDB
-        </span>
+        </div>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+        <div className="techstack__element">
           <TbPoint /> Ubuntu
-        </span>
+        </div>
       </Col>
-      <Col xs={2} md={3} className="tech-icons">
-        <span style={{ fontSize: "1.5vw", verticalAlign: "middle" }}>
+      <Col xs={3} md={3} className="tech-icons">
+        <div className="techstack__element">
           <TbPoint /> Git and Github
-        </span>
+        </div>
       </Col>
     </Row>
   );
