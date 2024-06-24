@@ -50,7 +50,7 @@ function Projects() {
               description="This is a firmware library written from scratch in C for ARM Cortex microprocessor for serial protocols. The library provides apis for I2C, SPI, GPIO and USART that an embedded systems's application layer (client) can use."
               ghLink="https://github.com/NatsuDrag9/STM32f413xx-drivers-from-scratch"
               // demoLink="https://plant49-ai.herokuapp.com/"
-              wikiLink="https://github.com/NatsuDrag9/tetris-multiplayer/wiki/Recruiters"
+              wikiLink="https://github.com/NatsuDrag9/STM32f413xx-drivers-from-scratch/wiki/Recruiters"
             />
           </Col>
 
