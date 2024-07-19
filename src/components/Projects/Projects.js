@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
+import modelMerge from "../../Assets/Projects/model_merge.png";
 import freeRtos from "../../Assets/Projects/free_rtos.webp";
 import tetrisGame from "../../Assets/Projects/Game_single_player_mdpi.png";
 import serialProtocol from "../../Assets/Projects/driver_layer.webp";
@@ -33,11 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={modelMerge}
               isBlog={false}
-              title="Code Editor (Contributing to this open source project)"
-              description="An online code-editor, where you can write python, cpp, javascript, java, and react code in your browser and see the output in the same window. Except for react, all other languages are executed on the server-side in an isolated environment to ensure security."
-              ghLink="https://github.com/NatsuDrag9/code-editor"
+              title="Model Merge (Open source contributer)"
+              description="Model Merge is an open-source platform that consolidates multiple language models into one place, allowing users to send requests to various models seamlessly from a single interface."
+              ghLink="https://github.com/vverma022/model-merge"
               // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
